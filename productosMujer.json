@@ -1,0 +1,137 @@
+[
+    {
+        "id": "1",
+        "nombre": "CHALECO",
+        "precio": 120,
+        "categoria": "MUJER",
+        "oferta": 8,
+        "img": "./productos_img/Mujer/Chaleco negro.jpg",
+        "descripcion": "Chaleco confeccionado en tejido con mezcla de lana de cuello y solapa con manga sisa con trabillas en hombros. "
+    },
+    {
+        "id": "2",
+        "nombre": "VESTIDO LARGO NEGRO",
+        "precio": 300,
+        "categoria": "MUJER",
+        "oferta": 6,
+        "img": "./productos_img/Mujer/Vestido negro.jpg",
+        "descripcion": "Vestido midi de escote recto y abertura ajustable con cordones. Manga larga. Bajo acabado en línea evasé. Bolsillos con tapeta en delantero."
+    },
+    {
+        "id": "3",
+        "nombre": "HOODIE BEIGE",
+        "precio": 160,
+        "categoria": "MUJER",
+        "oferta": 6,
+        "img": "./productos_img/Mujer/Buzo beige.jpg",
+        "descripcion": "Sudadera con cuello redondo y manga larga."
+    },
+    {
+        "id": "4",
+        "nombre": "SUDADERA CORTA",
+        "precio": 120,
+        "categoria": "MUJER",
+        "oferta": 4,
+        "img": "./productos_img/Mujer/Buzo corto.jpg",
+        "descripcion": "Sudadera corta de cuello subido y manga larga. Bajo asimétrico. Acabados en rib."
+    },
+    {
+        "id": "5",
+        "nombre": "BERMUDA TIRO ALTO",
+        "precio": 85,
+        "categoria": "MUJER",
+        "oferta": 5,
+        "img": "./productos_img/Mujer/Bermuda rosa.jpg",
+        "descripcion": "Bermuda de tiro alto con bolsillos e delantero y falsos bolsillos de doble vivo en espalda. Detalle de cinturón con hebilla forrada en mismo tejido. Cierre frontal con cremallera y ganchos metálicos."
+    },
+    {
+        "id": "6",
+        "nombre": "FALDA TIRO ALTO",
+        "precio": 100,
+        "categoria": "MUJER",
+        "oferta": 5,
+        "img": "./productos_img/Mujer/Falda nude.jpg",
+        "descripcion": "Falda de tiro alto con frunces laterales en cintura. Bajo acabado con abertura frontal. Cierre en espalda con cremallera oculta en costura."
+    },
+    {
+        "id": "7",
+        "nombre": "SHORTS TIRO ALTO",
+        "precio": 80,
+        "categoria": "MUJER",
+        "oferta": 5,
+        "img": "./productos_img/Mujer/Short jean.jpg",
+        "descripcion": "Shorts de tiro alto con bolsillos de plastrón en espalda. Detalle de aberturas. Bajo deshilachado. Cierre frontal con botones metálicos"
+    },
+    {
+        "id": "8",
+        "nombre": "FALDA MINI TIRO ALTO",
+        "precio": 70,
+        "categoria": "MUJER",
+        "oferta": 5,
+        "img": "./productos_img/Mujer/Falda beige.jpg",
+        "descripcion": "Falda mini de tiro alto. Forro interior. Bajo con abertura en delantero. Cierre lateral con cremallera oculta en costura."
+    },
+    {
+        "id": "9",
+        "nombre": "CONJUNTO BEIGE",
+        "precio": 230,
+        "categoria": "MUJER",
+        "oferta": 5,
+        "img": "./productos_img/Mujer/Conjunto beige.jpg",
+        "descripcion": "Conjunto blazer corto y falda mini de tiro alto. Forro interior. Bajo con abertura en delantero. Cierre lateral con cremallera oculta en costura."
+    },
+    {
+        "id": "10",
+        "nombre": "CONJUNTO BLANCO",
+        "precio": 230,
+        "categoria": "MUJER",
+        "oferta": 5,
+        "img": "./productos_img/Mujer/Conjunto blanco.jpg",
+        "descripcion": "Conjunto blanco roto. El estándar Green to Wear 2.0 tiene como objetivo minimizar el impacto ambiental de la producción textil. "
+    },
+    {
+        "id": "11",
+        "nombre": "BERMUDA CREMA",
+        "precio": 75,
+        "categoria": "MUJER",
+        "oferta": 5,
+        "img": "./productos_img/Mujer/Bermuda gris.jpg",
+        "descripcion": "Bermuda de tiro alto. Falsos bolsillos de vivo en espalda. Detalle de costuras marcadas. Cierre frontal con cremallera y ganchos metálicos. "
+    },
+    {
+        "id": "12",
+        "nombre": "VESTIDO AL CUERPO",
+        "precio": 140,
+        "categoria": "MUJER",
+        "oferta": 5,
+        "img": "./productos_img/Mujer/Vestido ajustado.jpg",
+        "descripcion": "Vestido ajustado de cuello redondo y manga larga. Detalle de abertura en pecho y bajo acabado con frunces y cordón. Cierre en espalda con cremallera oculta en costura."
+    },
+    {
+        "id": "13",
+        "nombre": "BLAZER CELESTE",
+        "precio": 60,
+        "categoria": "MUJER",
+        "oferta": 5,
+        "img": "./productos_img/Mujer/mujer_blazer.jpg",
+        "descripcion": "Blazer de cuello solapa y manga larga. Bolsillos con solapa en delantero y de vivo en pechera. Cierre frontal cruzado con botones combinados a contraste."
+    },
+    {
+        "id": "14",
+        "nombre": "PANTALON ROSA",
+        "precio": 60,
+        "categoria": "MUJER",
+        "oferta": 5,
+        "img": "./productos_img/Mujer/Pantalon rosa.jpg",
+        "descripcion": "Pantalón de tiro alto con cintura elástica en espalda. Pinzas delanteras. Detalle de cinturón a tono con hebilla metálica. Cierre frontal con cremallera y gancho metálico."
+    },
+    {
+        "id": "15",
+        "nombre": "PANTALON FELPA",
+        "precio": 60,
+        "categoria": "MUJER",
+        "oferta": 5,
+        "img": "./productos_img/Mujer/Pantalon negro.jpg",
+        "descripcion": "Pantalón de tiro alto con cintura elástica. Bolsillos laterales ocultos en costura. Bajo acabado en puño."
+    }
+]

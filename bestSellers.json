@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "nombre": "REMERA NEGRA",
+        "direccion": "Hombre.html",
+        "img": "./img/remera_negra_hombre.jpg",
+        "descripcion": "Camiseta regular fit confeccionada en tejido con acabado mercerizado. Cuello redondo acabado en rib y manga corta. Mangas debajo del tricep."
+    },
+    {
+        "id": "2",
+        "nombre": "BLAZER",
+        "direccion": "Mujer.html",
+        "img": "./img/mujer_blazer.jpg",
+        "descripcion": "Blazer de cuello solapa y manga larga. Bolsillos con solapa en delantero y de vivo en pechera. Cierre frontal cruzado con botones combinados a contraste."
+    },
+    {
+        "id": "3",
+        "nombre": "TRAJE COMPLETO",
+        "direccion": "Hombre.html",
+        "img": "./img/traje completo gris.jpg",
+        "descripcion": "Blazer de cuello con solapa de muesca. Manga larga acabada en puño con detalle de botones. Bolsillos de vivo en cadera con contraste."
+    },
+    {
+        "id": "4",
+        "nombre": "FALDA MINI TIRO ALTO",
+        "direccion": "Mujer.html",
+        "img": "./img/Falda beige.jpg",
+        "descripcion": "Falda de tiro alto con frunces laterales en cintura. Bajo acabado con abertura frontal. Cierre en espalda con cremallera oculta en costura."
+    },
+    {
+        "id": "5",
+        "nombre": "CHINOS GRISES",
+        "direccion": "Hombre.html",
+        "img": "./img/chino gris.jpg",
+        "descripcion": "Pantalón confeccionado en tejido con elasticidad. Bolsillos frontales, y detalle de bolsillos de vivo en espalda. Cierre frontal con cremallera y botón."
+    }
+    
+]

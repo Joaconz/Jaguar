@@ -1,0 +1,137 @@
+[
+    {
+        "id": "1",
+        "nombre": "REMERA NEGRA BASSIC",
+        "precio": 60,
+        "categoria": "HOMBRE",
+        "oferta": 8,
+        "img": "./productos_img/Hombre/remera_negra_hombre.jpg",
+        "descripcion": "Camiseta regular fit confeccionada en tejido con acabado mercerizado. Cuello redondo acabado en rib y manga corta."
+    },
+    {
+        "id": "2",
+        "nombre": "REMERA BLANCA BASSIC",
+        "precio": 120,
+        "categoria": "HOMBRE",
+        "oferta": 6,
+        "img": "./productos_img/Hombre/remera blanca.jpg",
+        "descripcion": "Camiseta de cuello redondo y manga corta. Estampación combinada a contraste en pecho y espalda."
+    },
+    {
+        "id": "3",
+        "nombre": "CAMISA AZUL",
+        "precio": 100,
+        "categoria": "HOMBRE",
+        "oferta": 6,
+        "img": "./productos_img/Hombre/camisa azul.jpeg",
+        "descripcion": "Camisa ligera confeccionada en tejido de algodón. Relaxed fit. Cuello abotonado y manga larga con detalle interior de trabillas. Cierre frontal con botones."
+    },
+    {
+        "id": "4",
+        "nombre": "CAMISA BLANCA",
+        "precio": 120,
+        "categoria": "HOMBRE",
+        "oferta": 4,
+        "img": "./productos_img/Hombre/camisa blanca.jpeg",
+        "descripcion": "Camisa slim fit confeccionada en tejido de algodón. Cuello solapa y manga larga acabada en puño con botones. Cierre frontal de botonadura."
+    },
+    {
+        "id": "5",
+        "nombre": "CAMISA NEGRA",
+        "precio": 60,
+        "categoria": "HOMBRE",
+        "oferta": 5,
+        "img": "./productos_img/Hombre/camisa negra.jpeg",
+        "descripcion": "Camisa slim fit de cuello abotonado y manga larga acabada en puño con botón. Cierre frontal de botonadura."
+    },
+    {
+        "id": "6",
+        "nombre": "BLAZER",
+        "precio": 100,
+        "categoria": "HOMBRE",
+        "oferta": 5,
+        "img": "./productos_img/Hombre/blazer frente.jpg",
+        "descripcion": "Blazer de cuello y solapas de pico. Manga larga acabada en puño con botones. Bolsillos de vivo en cadera. Detalle de bolsillo interior. Bajo con abertura central en espalda. Cierre frontal de botonadura"
+    },
+    {
+        "id": "7",
+        "nombre": "BUZO BLANCO BASSIC",
+        "precio": 160,
+        "categoria": "HOMBRE",
+        "oferta": 5,
+        "img": "./productos_img/Hombre/buzo frente.jpg",
+        "descripcion": "Sudadera amplia con cuello redondo, capucha y manga larga. Color beige Acabados en rib."
+    },
+    {
+        "id": "8",
+        "nombre": "BUZO NEGRO BASSIC",
+        "precio": 160,
+        "categoria": "HOMBRE",
+        "oferta": 5,
+        "img": "./productos_img/Hombre/buzo negro.jpg",
+        "descripcion": "Sudadera amplia con cuello redondo, capucha y manga larga. Color negro Acabados en rib."
+    },
+    {
+        "id": "9",
+        "nombre": "JEAN SKINNY NEGRO",
+        "precio": 100,
+        "categoria": "HOMBRE",
+        "oferta": 5,
+        "img": "./productos_img/Hombre/jean skinny negro.jpg",
+        "descripcion": "Jeans skinny fit de cinco bolsillos. Efecto lavado en perneras. Cierre frontal con cremallera y botón."
+    },
+    {
+        "id": "10",
+        "nombre": "JEANS BASSICS",
+        "precio": 110,
+        "categoria": "HOMBRE",
+        "oferta": 5,
+        "img": "./productos_img/Hombre/jeans basicos.jpg",
+        "descripcion": "Jeans skinny fit con cinco bolsillos. Bajo acabado"
+    },
+    {
+        "id": "11",
+        "nombre": "CHINOS BEIGE",
+        "precio": 60,
+        "categoria": "HOMBRE",
+        "oferta": 5,
+        "img": "./productos_img/Hombre/pantalon beige.jpeg",
+        "descripcion": "Pantalón confeccionado en tejido con elasticidad. Bolsillos frontales, y detalle de bolsillos de vivo en espalda. Cierre frontal con cremallera y botón."
+    },
+    {
+        "id": "12",
+        "nombre": "CHINOS BLANCOS",
+        "precio": 60,
+        "categoria": "HOMBRE",
+        "oferta": 5,
+        "img": "./productos_img/Hombre/pantalon blanco.jpeg",
+        "descripcion": "Pantalón confeccionado en tejido con elasticidad. Bolsillos frontales, y detalle de bolsillos de vivo en espalda. Cierre frontal con cremallera y botón."
+    },
+    {
+        "id": "13",
+        "nombre": "CHINOS GRISES",
+        "precio": 60,
+        "categoria": "HOMBRE",
+        "oferta": 5,
+        "img": "./productos_img/Hombre/chino gris.jpg",
+        "descripcion": "Pantalón confeccionado en tejido con elasticidad. Bolsillos frontales, y detalle de bolsillos de vivo en espalda. Cierre frontal con cremallera y botón."
+    },
+    {
+        "id": "14",
+        "nombre": "TRAJE GRIS COMPLETO",
+        "precio": 220,
+        "categoria": "HOMBRE",
+        "oferta": 5,
+        "img": "./productos_img/Hombre/traje completo gris.jpg",
+        "descripcion": "Blazer de cuello con solapa de muesca. Manga larga acabada en puño con detalle de botones. Bolsillos de vivo en cadera con contraste."
+    },
+    {
+        "id": "15",
+        "nombre": "TRAJE NEGRO COMPLETO",
+        "precio": 220,
+        "categoria": "HOMBRE",
+        "oferta": 5,
+        "img": "./productos_img/Hombre/traje completo negro.jpg",
+        "descripcion": "Blazer de cuello con solapas de muesca y manga larga acabada en puño con botón. Bolsillo de vivo en pecho y bolsillos de solapa en cintura. Detalle de bolsillo interior. Bajo con aberturas en espalda. Cierre frontal de botonadura."
+    }
+]

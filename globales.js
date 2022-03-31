@@ -1,0 +1,13 @@
+const productos = []; //array de productos
+const carrito = []; //array de productos en el carrito
+const cantidadElementos = document.getElementById("cantidadElementos"); //numero que aparece al lado del boton de carrito
+const confirmacion = document.getElementById("confirmacion"); //contenedor del subtotal y "select" para seleccionar numero de cuotas
+const finalizarCompra = document.getElementById("finalizarCompra"); //boton para finalizar la compra
+let sumaTotal = 0; //variable para almacenar la sumatoria de los precios de los productos en el carrito
+let contenedorCarrito = document.getElementById("contenedorCarrito"); //contenedor del carrito
+let accesoCarrito = document.getElementById("btnCarrito"); //boton para agregar al carrito
+let totalProductos = document.getElementById("totalProductos"); //contenedor de todos los productos
+const listElements = document.querySelectorAll(".boton_lista-click"); //menu
+let header = document.getElementById("navBar");
+const linkMujer = "productosMujer.json"; //archivo json de los productos de mujer
+const linkHombre = "productosHombre.json"; //archivo json de los productos de hombre

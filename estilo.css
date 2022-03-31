@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+/*menu*/
+.nav {
+  width: 400px;
+}
+
+.lista {
+  width: 300px;
+}
+
+.nav__link {
+  color: #979696;
+  display: block;
+  padding: 15px 0;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #856a5d;
+}
+
+.nav__link-adentro {
+  border-radius: 6px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.nav__link-adentro:hover {
+  background: #232526;
+}
+
+.lista {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #232526;
+}
+
+.lista__item {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.lista__item-click {
+  cursor: pointer;
+}
+
+.boton_lista {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.arrow .lista__flecha {
+  transform: rotate(90deg);
+}
+
+.lista__flecha {
+  margin-left: auto;
+  transition: transform 0.3s;
+}
+
+.lista__desplegada {
+  width: 80%;
+  margin-left: auto;
+  border-left: 2px solid #303440;
+  list-style: none;
+  transition: height 0.4s;
+  height: 0;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+.lista__img {
+  filter: invert(100%) sepia(0%) saturate(6919%) hue-rotate(226deg)
+    brightness(89%) contrast(97%);
+}
+/*navBar*/
+
+/*Info*/
+#info {
+  text-align: center;
+  font-size: 50px;
+}
+
+#textoFigure {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+#navBar {
+  text-align: center;
+  color: #f6f8fa;
+  display: block;
+  margin: auto;
+  padding: auto;
+  font-size: 30px;
+}
+
+#brand {
+  text-align: center;
+  color: #f6f8fa;
+  display: block;
+  margin: auto;
+  padding: 0.5rem;
+  font-size: 25px;
+}
+
+#p {
+  font-size: 12.5px;
+  text-align: center;
+  color: #f6f8fa;
+  display: block;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+#img_fondo {
+  width: 100%;
+  position: relative;
+  height: 750px;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      rgba(65, 67, 69, 0.2),
+      rgba(35, 37, 38, 0.2)
+    ),
+    url("/Jaguar/img/mike-van-den-bos-k5brbv8T3yE-unsplash.jpg"); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      rgba(65, 67, 69, 0.2),
+      rgba(35, 37, 38, 0.2)
+    ),
+    url("/Jaguar/img/mike-van-den-bos-k5brbv8T3yE-unsplash.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  color: #f6f8fa;
+  display: block;
+  margin: auto;
+  padding: 2rem;
+  font-size: 100px;
+}
+
+#img_sobreNosotros {
+  width: 100%;
+  position: relative;
+  height: 750px;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      rgba(65, 67, 69, 0.2),
+      rgba(35, 37, 38, 0.2)
+    ),
+    url("/Jaguar/img/daley-van-de-sande-Ca0vk1FV420-unsplash.jpg"); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      rgba(65, 67, 69, 0.2),
+      rgba(35, 37, 38, 0.2)
+    ),
+    url("/Jaguar/img/daley-van-de-sande-Ca0vk1FV420-unsplash.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  color: #f6f8fa;
+  display: block;
+  margin: auto;
+  padding: 2rem;
+  font-size: 100px;
+}
+
+.img_categorias {
+  height: 600px;
+  width: 400px;
+}
+
+#btn_p {
+  margin: auto;
+  padding: auto;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+#btn_p:hover {
+  animation: bounce;
+  animation-duration: 2s;
+}
+
+#menu {
+  position: relative;
+  float: left;
+}
+
+#carrito {
+  position: relative;
+  float: right;
+  display: flex;
+}
+
+.ttl {
+  margin: 8px;
+  padding: 10px;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+#sobreNosotrosDiv {
+  width: 1519px;
+  max-height: 700px;
+  background-color: #856a5d;
+}
+
+article {
+  margin: 5px;
+  padding: 10px;
+  text-align: justify;
+  position: absolute;
+}
+
+footer {
+  background-color: #232526;
+  color: #f6f8fa;
+  padding: 10px;
+  text-align: justify;
+}
+
+#contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacto_adentro {
+  background-color: #232526;
+}
+
+.cont_link {
+  color: #f6f8fa;
+}
+
+.cont_link:hover {
+  color: #856a5d;
+}
+
+#form {
+  display: inline-block;
+  text-align: left;
+  width: 60%;
+  background-color: #232526;
+}
+
+#contactoEmpresa {
+  display: flex;
+  text-align: left;
+  margin-right: 20px;
+  width: 40%;
+}
+
+.ttl {
+  text-align: center;
+  display: block;
+}
+
+.link_bestSellers {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link_bestSellers:hover {
+  color: #ffffff;
+}
+
+.descripciones {
+  height: 100px;
+}
+
+#confirmacion {
+  width: 200px;
+}
+
+article {
+  width: 50%;
+  height: 90%;
+  background-color: rgb(35, 37, 38, 0.7);
+  border-radius: 20px;
+  margin-left: 8px;
+  font-size: 50px;
+}
+
+#articulo_tittle {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.text {
+  font-size: 20px;
+}

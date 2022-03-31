@@ -1,0 +1,3 @@
+menu();
+existenciaLocalStorage();
+datosObtencion(linkMujer);

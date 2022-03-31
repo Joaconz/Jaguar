@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>JAGUAR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="imagehover.css-master/css/imagehover.min.css">
+  <link rel="stylesheet" href="imagehover.css-master/css/imagehover.css">
+  <link rel="stylesheet" href="imagehover.css-master/scss/imagehover.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css.map">
+</head>
+
+<body>
+  <!----------------------------------------------------------Barra de navegacion--------------------------------------------------------------------------------------->
+  <header class="header">
+    <nav id="navBar" class="navbar fixed-top navbar-expand-sm navbar-dark p-md-3">
+      <div class="container">
+
+        <div class="nav navbar-nav navbar-left">
+          <button id="menu" class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample">
+            <img src="iconos/bx-menu.svg" class="lista__img">
+          </button>
+        </div>
+        <a id="brand" class="navbar-brand" href="index.html#principio">JAGUAR</a>
+        <div class="nav navbar-nav navbar-center" id="navbarNav">
+
+
+
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <nav id="menu" class="nav">
+      <ul class="lista">
+
+        <li class="lista__item">
+          <div class="boton_lista">
+            <img src="iconos/bx-store.svg" class="lista__img">
+            <a href="index.html" class="nav__link">INICIO</a>
+          </div>
+        </li>
+
+
+        <li class="lista__item lista__item-click">
+          <div class="boton_lista boton_lista-click">
+            <img src="iconos/bx-closet.svg" class="lista__img">
+            <a href="#" class="nav__link">PRODUCTOS</a>
+            <img src="iconos/arrow.svg" class="lista__flecha">
+          </div>
+
+          <ul class="lista__desplegada">
+
+            <li class="lista__adentro">
+              <a href="Hombre.html" class="nav__link nav__link-adentro">
+                <img src="iconos/bx-male-sign.svg" class="lista__img" alt="">HOMBRE</a>
+
+            </li>
+
+            <li class="list__adentro">
+              <a href="Mujer.html" class="nav__link nav__link-adentro">
+                <img src="iconos/bx-female-sign.svg" class="lista__img" alt="">MUJER</a>
+
+            </li>
+
+          </ul>
+
+        </li>
+
+
+        <li class="lista__item">
+          <div class="boton_lista" onclick="">
+            <img src="iconos/bx-cart.svg" class="lista__img">
+            <a href="index.html#bestSellers" class="nav__link">BEST SELLERS</a>
+          </div>
+        </li>
+
+
+        <li class="lista__item">
+          <div class="boton_lista">
+            <img src="iconos/bx-user.svg" class="lista__img">
+            <a href="index.html#sobreNosotros" class="nav__link">SOBRE NOSOTROS</a>
+          </div>
+        </li>
+
+
+        <li class="lista__item">
+          <div class="boton_lista">
+            <img src="iconos/bx-phone.svg" class="lista__img">
+            <a href="index.html#contacto" class="nav__link">CONTACTANOS</a>
+          </div>
+        </li>
+
+
+      </ul>
+    </nav>
+  </div>
+  <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <section id="info">
+    <div id="img_fondo" name="principio">
+      <br>
+      <p style="margin-bottom: 30px; margin-top: 70px;">JAGUAR</p> <br>
+      <a href="#categorias">
+        <button id="btn_p" type="button" class="btn">
+          <img src="iconos/bx-chevron-down.svg" class="lista__img animate__animated " alt="" height="75" width="75">
+        </button>
+      </a>
+    </div>
+
+
+
+    <!---->
+    <div id="categorias" name="categorias">
+      <br>
+      <h3 class="ttl">CATEGORIAS</h3>
+      <figure class="imghvr-fade">
+        <img src="img/traje completo negro.jpg" class="rounded float-start img_categorias">
+        <figcaption>
+          <br><br><br>
+          <p id="textoFigure" class="ih-delay-md">HOMBRE</p>
+        </figcaption>
+        <a href="Hombre.html"></a>
+      </figure>
+
+      <figure class="imghvr-fade">
+        <img src="img/Pantalon rosa.jpg" class="rounded float-end img_categorias">
+        <figcaption>
+          <br><br><br>
+          <p id="textoFigure" class="ih-delay-md">MUJER</p>
+        </figcaption>
+        <a href="Mujer.html"></a>
+      </figure>
+    </div>
+    <!---->
+    <div id="bestSellers">
+      <br>
+      <h3 class="ttl">BEST SELLERS</h3>
+      <div class="row row-cols-1 row-cols-md-5 g-4" id="bestSellersJavascript" style="max-width: 1530px;">
+
+      </div>
+    </div>
+
+    <!---->
+    <div id="sobreNosotros">
+      <br>
+      <div id="img_sobreNosotros">
+        <article>
+          <br>
+          <h3 id="articulo_tittle">SOBRE NOSOTROS</h3>
+          <p class="text">Somos una empresa conformada por personas altamente capacitadas en el mundo de la moda.<br>
+            Después de sentirnos frustrados por no poder encontrar elementos esenciales, de alta calidad, a un precio
+            justo, decidimos tomar el asunto en nuestras propias manos.<br> Con Jaguar cubrimos las necesidades de
+            quienes desean vestirse confortable y elegante al mismo tiempo, con el objetivo de poder crear infinidad de
+            atuendos que destaquen en cualquier ocasión.</p>
+        </article>
+        <br>
+      </div>
+    </div>
+
+  </section>
+  <!---->
+
+  <footer>
+    <br>
+    <h3 class="ttl">CONTACTANOS</h3><br><br>
+    <div id="contacto">
+      <div id="form" class="card mb-3 contacto_adentro">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputName" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="inputName" placeholder="First name" aria-label="First name">
+          </div>
+          <div class="col-md-6">
+            <label for="inputLastName" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="inputLastName" placeholder="Last name" aria-label="Last name">
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="example@email.com">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="City">
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="Zip">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-outline-light">Enviar</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="contactoEmpresa">
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">
+              Jaguar.Inc
+              <br>Tel: 011-4444-5555
+              <br>Mail: <a href="mailto:joaquin.nunez@gmail.com" class="cont_link">joaquin.nunez@gmail.com</a>
+              <br>Direc: <a
+                href="https://www.google.com.ar/maps/place/Walt+Disney+World+Resort/@28.3771857,-81.5729287,17z/data=!3m1!4b1!4m5!3m4!1s0x88dd7ee634caa5f7:0xa71e391fd01cf1a0!8m2!3d28.3771857!4d-81.57074"
+                class="cont_link">Walt Disney Orlando Resort</a>
+              <br>Instagram: <a href="https://www.instagram.com/?hl=es-la" class="cont_link">Jaguar_classics</a>
+              <br>Facebook: <a href="https://www.facebook.com/" class="cont_link">Jaguar_classics</a>
+              <br>WhatsApp: <a href="https://www.whatsapp.com/?lang=es" class="cont_link">11-6542-3128</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    </div>
+    <br><br><br>
+  </footer>
+
+  <!---->
+
+  <script src="navBar.js"></script>
+  <script src="menu.js"></script>
+  <script src="bestSellers.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
