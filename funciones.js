@@ -146,9 +146,10 @@ function eliminarCarrito() {
   let btnEliminar = document.getElementsByClassName("btn-eliminar");
   for (const botones of btnEliminar) {
     botones.addEventListener("click", function () {
-      let posicion = carrito.find((producto) => producto.id == this.id);
-      carrito.splice(posicion, 1);
-      posicion.ofertaLabel();
+      let posicion = carrito.findIndex((producto) => producto.id == this.id);
+		  let auxP = carrito[posicion]
+			auxP.ofertaLabel();
+			carrito.splice(posicion, 1);
       creacionCarrito(carrito);
       totalCarrito();
       localStorage.setItem("Carrito", JSON.stringify(carrito));
